@@ -7,3 +7,6 @@ For example: text = "How are you? Eh, ok. Low or Lower? Ohhh.", if we collect al
 Input: A text as a string (unicode).
 
 Output: The secret message as a string or an empty string.
+
+
+Source: https://py.checkio.org/mission/secret-message/
