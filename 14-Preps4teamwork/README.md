@@ -1,4 +1,4 @@
-# preps4teamwork
+# codecool-python / 014-Preps4teamwork
 
 Preparations for the 2. Teamwork week (in Python)
 
