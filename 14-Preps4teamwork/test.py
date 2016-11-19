@@ -1,6 +1,6 @@
 import unittest
 
-# Here's our "unit".
+# Here's our "unit"
 
 
 def IsOdd(n):
@@ -9,7 +9,7 @@ def IsOdd(n):
     else:
         return False
 
-# Here's our "unit tests".
+# Here's our "unit tests"
 
 
 class IsOddTests(unittest.TestCase):
