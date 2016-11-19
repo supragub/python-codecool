@@ -7,4 +7,4 @@ def find_message(text):
 
     return secret_message
 
-print(find_message("Say Enough Crap Repeat Eight Trolls"))
+print(find_message("Say Enough Crap Repeat Eight Trolls."))
