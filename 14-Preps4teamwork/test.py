@@ -4,7 +4,10 @@ import unittest
 
 
 def IsOdd(n):
-    return
+    if n % 2 == 1:
+        return True
+    else:
+        return False
 
 # Here's our "unit tests".
 
@@ -12,10 +15,10 @@ def IsOdd(n):
 class IsOddTests(unittest.TestCase):
 
     def testOne(self):
-        self.failUnless(IsOdd(1))
+        self.assertTrue(IsOdd(1))
 
     def testTwo(self):
-        self.failIf(IsOdd(2))
+        self.assertFalse(IsOdd(2))
 
 
 def main():
