@@ -6,4 +6,5 @@ def remove_duplicates():
             t2.append(i)
     print(t2)
 
+
 remove_duplicates()
