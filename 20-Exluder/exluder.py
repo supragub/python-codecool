@@ -1,8 +1,9 @@
 def remove_duplicates():
-    t = ['a', 'b', 'c', 'd']
-    t2 = ['a', 'c', 'd']
-    for t in t2:
-        t.append(t.remove())
-    return t
+    t = [1, 2, 3, 1, 2, 5, 6, 7, 8]
+    t2 = []
+    for i in t:
+        if i not in t2:
+            t2.append(i)
+    print(t2)
 
 remove_duplicates()
